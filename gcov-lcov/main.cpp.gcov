@@ -1,0 +1,19 @@
+        -:    0:Source:./main.cpp
+        -:    0:Graph:main_test.gcno
+        -:    0:Data:main_test.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:// class func {
+        -:    2:
+        -:    3:    int multiply(int a, int b) {
+        4:    4:        return a * b;
+        -:    5:    }
+        -:    6:
+        -:    7:    int myMax(int a, int b, int c) {
+        4:    8:        if(a >= b && a >= c)
+        1:    9:            return a;
+        4:   10:        else if(b >= a && b >= c)
+        2:   11:            return b;
+    #####:   12:        return c;
+        3:   13:    }
+        -:   14:// };
